@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    { "source": "/assets/images/:file*", "destination": "/:file*" },
+    { "source": "/assets/thumbs/:file*", "destination": "/:file*" },
+    { "source": "/assets/videos/:file*", "destination": "/:file*" },
+    { "source": "/assets/docs/:file*", "destination": "/:file*" }
+  ]
+}
